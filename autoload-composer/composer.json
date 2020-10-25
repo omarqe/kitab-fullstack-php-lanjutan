@@ -1,0 +1,14 @@
+{
+    "name": "omarqe/www",
+    "description": "Namespace and autoloader samples.",
+    "type": "project",
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "Omar",
+            "email": "omar.veyron@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}

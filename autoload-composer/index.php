@@ -1,9 +1,13 @@
 <?php
 define("ABSPATH", __DIR__); // Path of current directory, e.g: /var/www
+define("FUNCTIONS", ABSPATH . '/src/functions.php');
+define("AUTOLOAD", ABSPATH . '/vendor/autoload.php');
 
-require(ABSPATH . "/src/functions.php"); // Helper functions
-if (file_exists(ABSPATH . "/vendor/autoload.php")) {
-    require(ABSPATH . "/src/autoload.php");
+if (file_exists(FUNCTIONS)) {
+    require FUNCTIONS;
+}
+if (file_exists(AUTOLOAD)) {
+    require AUTOLOAD;
 }
 
 $authn = new MyProject\User\Auth();

@@ -1,0 +1,18 @@
+{
+    "name": "omarqe/singleton-with-autoload",
+    "description": "MySQLi OOP sample with Singleton Pattern.",
+    "type": "project",
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "Omar Mokhtar",
+            "email": "hello@omvr.io"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MyProject\\": "src/"
+        }
+    }
+}

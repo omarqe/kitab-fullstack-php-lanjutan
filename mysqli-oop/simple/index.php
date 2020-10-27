@@ -1,5 +1,5 @@
 <?php
-$conn = new mysqli("localhost", "root", "p455w0rD", "sampledb");
+$conn = @new MySQLi("localhost", "root", "p455w0rD", "sampledb");
 if ($conn->connect_errno) {
     printf(
         '<h1>%s</h1>Error: %s',

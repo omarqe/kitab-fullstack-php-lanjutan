@@ -42,7 +42,7 @@ class DB extends \MySQLi
     {
         if (self::$instance === null) {
             // If the connection isn't established yet, then do that now.
-            self::$instance = new static("localhost", "root", "p455w0rD", "kftestdb");
+            self::$instance = new static("localhost", "root", "p455w0rD", "sampledb");
         }
 
         return self::$instance;

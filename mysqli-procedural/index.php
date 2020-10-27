@@ -1,6 +1,6 @@
 <?php
 // Establish a connection to the system
-$conn = @mysqli_connect("localhost", "root", "p455w0rD", "kbtest");
+$conn = @mysqli_connect("localhost", "root", "p455w0rD", "sampledb");
 if (mysqli_connect_errno()) {
     printf(
         '<h1>%s</h1>Error: %s',

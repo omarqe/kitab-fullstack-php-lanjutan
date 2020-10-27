@@ -40,7 +40,7 @@ class DB
     {
         if (self::$instance === null) {
             // If the connection isn't established yet, then do that now.
-            new static("localhost", "root", "p455w0rD", "kftestdb");
+            new static("localhost", "root", "p455w0rD", "sampledb");
         }
 
         return self::$instance;
